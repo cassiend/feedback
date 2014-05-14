@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # pooface
 
 FIXME
@@ -18,7 +17,3 @@ To start a web server for the application, run:
 ## License
 
 Copyright © 2014 FIXME
-=======
-feedback
-========
->>>>>>> a61736a4d6f919843f2ecf079e3b144c1215d14c
