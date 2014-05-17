@@ -7,6 +7,7 @@
                  [midje "1.5.1"]
                  [com.novemberain/monger "1.7.0"]
                  [garden "1.1.5" :exclusions [org.clojure/clojure com.google.guava/guava org.clojure/tools.reader]]]
+  :main pooface.server
   :plugins [[lein-ring "0.8.10"]
             [lein-midje "3.0.0"]]
   :ring {:handler pooface.handler/app}
