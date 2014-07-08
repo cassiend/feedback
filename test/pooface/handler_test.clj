@@ -7,4 +7,4 @@
 
 (fact "we render index"
   (:status (request "/" app-routes)) => 200
-  (:body (request "/" app-routes)) => (contains "Get some POO!"))
+  (:body (request "/" app-routes)) => (contains "Get some feedback"))

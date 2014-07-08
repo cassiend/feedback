@@ -3,4 +3,4 @@
 
 (css
  {:output-to "resources/public/style.css"}
-  [:h1 {:width "100%" :margin-top "5em" :text-align "center" :color "#44a" :font-family "sans-serif"}])
+  [:h1 {:width "100%" :margin-top "10em" :text-align "right" :color "#B20000" :font-family "sans-serif"}])

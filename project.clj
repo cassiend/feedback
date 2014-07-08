@@ -9,7 +9,8 @@
                  [garden "1.1.5" :exclusions [org.clojure/clojure com.google.guava/guava org.clojure/tools.reader]]]
   :main pooface.server
   :plugins [[lein-ring "0.8.10"]
-            [lein-midje "3.0.0"]]
+            [lein-midje "3.0.0"]
+            [lein-light "0.0.4"]]
   :ring {:handler pooface.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
